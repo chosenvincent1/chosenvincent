@@ -1,4 +1,4 @@
-import { Mail, BookOpen, Linkedin, Github, X, FileDown } from 'lucide-react'
+import { Mail, BookOpen, Linkedin, Github, Twitter, FileDown } from 'lucide-react'
 
 const ContactSection = () => {
   const contactLinks = [
@@ -40,7 +40,7 @@ const ContactSection = () => {
     },
     {
       id: 5,
-      icon: <X size={48} />,
+      icon: <Twitter size={48} />,
       title: 'X',
       link: 'https://x.com/ChosenVincent1',
       linkText: 'Follow me'

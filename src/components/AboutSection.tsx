@@ -17,13 +17,13 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row gap-8 items-start">
             {/* Description - Takes up more space */}
             <div className="flex-1 md:flex-[2]">
-                <p className="text-xl mb-4 md:text-2xl lg:text-3xl font-light leading-relaxed">
+                <p className="text-xl mb-4 md:text-2xl font-light leading-relaxed">
                     I'm Chosen Vincent, a software developer and technical writer with a B.Sc in Computer Science. I code before I write.
                 </p>
-                <p className="text-xl mb-4 md:text-2xl lg:text-3xl font-light leading-relaxed">
+                <p className="text-xl mb-4 md:text-2xl font-light leading-relaxed">
                     My background in development means I test every code example before publishing it. If it doesn't work on my machine, it doesn't go in the article. This approach helps me create documentation that developers actually want to read.
                 </p>
-                <p className="text-xl md:text-2xl lg:text-3xl font-light leading-relaxed">
+                <p className="text-xl md:text-2xl font-light leading-relaxed">
                     I've worked with companies like Middleware on infrastructure monitoring guides, TestMu AI on test automation tutorials, and built API documentation for a payment and delivery system.
                 </p>
             </div>
