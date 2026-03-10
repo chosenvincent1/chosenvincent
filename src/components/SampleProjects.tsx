@@ -18,7 +18,7 @@ const SampleProjects = () => {
     id: 1,
     title: 'Linux Infrastructure Monitoring with Middleware',
     category: 'Guide',
-    description: 'Complete guide to monitoring Linux servers with distributed tracing and observability tools.',
+    description: 'Complete guide to monitoring Linux servers covering agent installation, key metrics, alert configuration, and troubleshooting.',
     link: 'https://middleware.io/blog/linux-infrastructure-monitoring-with-middleware/',
     company: 'Middleware'
   },
@@ -76,23 +76,23 @@ const SampleProjects = () => {
   },
   {
     id: 8,
-    title: 'Continuous Profiling for Production Applications',
-    category: 'Explanation',
-    description: 'Explanation of continuous profiling techniques for performance optimization.',
-    link: 'https://middleware.io/blog/continuous-profiling/',
-    company: 'Middleware'
+    title: 'Mock Delivery API Documentation',
+    category: 'API Docs',
+    description: 'Complete API documentation for 50+ endpoints covering delivery management, tracking, and analytics built with GitBook and OpenAPI.',
+    link: 'https://chosen-1.gitbook.io/mock-delivery-api-doc/',
+    company: 'Me with GitBook'
   },
   {
     id: 9,
-    title: 'AI in Software Testing: Transforming QA',
-    category: 'Explanation',
-    description: 'How AI is revolutionizing software testing and quality assurance workflows.',
-    link: 'https://www.tricentis.com/learn/ai-in-software-testing',
-    company: 'Tricentis'
-  }
+    title: 'Plaid API Documentation',
+    category: 'API Docs',
+    description: 'Technical documentation for 20+ Plaid payment and banking endpoints with authentication, transactions, and account verification.',
+    link: 'https://documenter.getpostman.com/view/26275816/2sBXVme8Mj',
+    company: 'Me with Postman'
+  },
 ]
 
-  const categories = ['Guide', 'Tutorial', 'API Doc', 'Explanation']
+  const categories = ['Guide', 'Tutorial', 'API Docs', 'Explanation']
 
   const filteredArticles = articles.filter(article => article.category === activeCategory)
 
