@@ -95,7 +95,7 @@ const Footer = () => {
           {/* Developed By */}
           <div>
             <p className="text-xs text-gray-500 mb-1">DEVELOPED BY:</p>
-            <p className="font-medium">VINCENT CHOSEN</p>
+            <p className="font-medium">CHOSEN VINCENT</p>
           </div>
 
 
@@ -117,7 +117,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-gray-400 transition-colors"
               >
-                TWITTER/X
+                X
               </a>
               <a 
                 href="https://github.com/yourprofile" 
