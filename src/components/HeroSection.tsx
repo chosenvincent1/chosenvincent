@@ -51,8 +51,8 @@ const HeroSection = () => {
           {/* Main Heading with Typing Animation */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-4">
             <ReactTyped
-              strings={["I'm Chosen, a Technical Writer for Developers."]}
-              typeSpeed={50}
+              strings={["Hello, <br/> I'm Chosen, a Technical Writer for Developers."]}
+              typeSpeed={60}
               backSpeed={30}
               loop
               backDelay={2000}
@@ -82,21 +82,6 @@ const HeroSection = () => {
             </svg>
             LET'S TALK
           </a>
-        </div>
-
-        {/* Large Name Display */}
-        <div className="lg:hidden absolute bottom-0 left-0 right-0 overflow-hidden pointer-events-none">
-          <div className="flex gap-64 animate-scroll-left">
-            <h2 className="text-[5rem] md:text-[9rem] xl:text-[11rem] font-bold leading-none tracking-tight opacity-90 whitespace-nowrap">
-              Chosen Vincent
-            </h2>
-            <h2 className="text-[5rem] md:text-[9rem] xl:text-[11rem] font-bold leading-none tracking-tight opacity-90 whitespace-nowrap">
-              Chosen Vincent
-            </h2>
-            <h2 className="text-[5rem] md:text-[9rem] xl:text-[11rem] font-bold leading-none tracking-tight opacity-90 whitespace-nowrap">
-              Chosen Vincent
-            </h2>
-          </div>
         </div>
 
         {/* Large Name Display - Desktop (Static) */}
