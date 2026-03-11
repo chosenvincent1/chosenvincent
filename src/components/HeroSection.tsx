@@ -85,8 +85,8 @@ const HeroSection = () => {
         </div>
 
         {/* Large Name Display - Desktop (Static) */}
-        <div className="hidden lg:block absolute bottom-0 left-0 right-0 overflow-hidden pointer-events-none">
-          <h2 className="text-[8rem] xl:text-[11rem] font-bold leading-none tracking-tight opacity-90 text-center">
+        <div className="hidden lg:block absolute bottom-0 left-0 right-0 overflow-hidden pointer-events-none py-2">
+          <h2 className="text-[8rem] xl:text-[10rem] font-bold leading-none tracking-tight opacity-90 text-center">
             Chosen Vincent
           </h2>
         </div>
