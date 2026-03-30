@@ -32,14 +32,6 @@ const SampleProjects = () => {
   },
   {
     id: 3,
-    title: 'What Are AI Agents? A Complete Guide',
-    category: 'Explanation',
-    description: 'Complete guide to AI agents covering architecture, use cases, and practical DevOps applications.',
-    link: 'https://middleware.io/blog/what-are-ai-agents/',
-    company: 'Middleware'
-  },
-  {
-    id: 4,
     title: 'Memory Leaks: Detection and Prevention Guide',
     category: 'Guide',
     description: 'Guide to detecting and preventing memory leaks across frontend, backend, and microservices architectures.',
@@ -49,7 +41,7 @@ const SampleProjects = () => {
   
   // TUTORIALS
   {
-    id: 5,
+    id: 4,
     title: 'Cypress Component Testing: A Complete Tutorial',
     category: 'Tutorial',
     description: 'Step-by-step guide to testing React components with Cypress including local setup and cloud execution.',
@@ -57,7 +49,7 @@ const SampleProjects = () => {
     company: 'TestMu AI (formerly LambdaTest)'
   },
   {
-    id: 6,
+    id: 5,
     title: 'Getting Started with Playwright and JavaScript',
     category: 'Tutorial',
     description: 'Beginner-friendly tutorial on browser automation with Playwright covering setup, test creation, and CI/CD integration.',
@@ -67,7 +59,23 @@ const SampleProjects = () => {
   
   // EXPLANATIONS
   {
+    id: 6,
+    title: "The Developer’s Guide to AI Memory: Mem0 vs OpenAI Memory",
+    category: 'Explanation',
+    description: 'Comparison of Mem0 and OpenAI Memory, covering architecture, benchmarks, and practical guidance for developers building AI applications with persistent memory.',
+    link: 'https://chosenvincent.hashnode.dev/mem0-vs-openai-memory-ai-memory-layer',
+    company: 'Me on Hashnode'
+  },
+  {
     id: 7,
+    title: 'What Are AI Agents? A Complete Guide',
+    category: 'Explanation',
+    description: 'Complete guide to AI agents covering architecture, use cases, and practical DevOps applications.',
+    link: 'https://middleware.io/blog/what-are-ai-agents/',
+    company: 'Middleware'
+  },
+  {
+    id: 8,
     title: 'Exit Code 137 in Kubernetes: Causes and Fixes',
     category: 'Explanation',
     description: 'Deep dive into Kubernetes OOMKilled errors covering root cause analysis and production troubleshooting strategies.',
@@ -75,7 +83,7 @@ const SampleProjects = () => {
     company: 'Middleware'
   },
   {
-    id: 8,
+    id: 9,
     title: 'Mock Delivery API Documentation',
     category: 'API Docs',
     description: 'Complete API documentation for 50+ endpoints covering delivery management, tracking, and analytics built with GitBook and OpenAPI.',
@@ -83,7 +91,7 @@ const SampleProjects = () => {
     company: 'Me with GitBook'
   },
   {
-    id: 9,
+    id: 10,
     title: 'Plaid API Documentation',
     category: 'API Docs',
     description: 'Technical documentation for 20+ Plaid payment and banking endpoints with authentication, transactions, and account verification.',
