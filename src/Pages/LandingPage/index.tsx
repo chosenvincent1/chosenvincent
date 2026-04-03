@@ -8,7 +8,7 @@ export default function LandingPage () {
       <Navbar />
 
       {/* Hero */}
-      <div className="flex-1 flex flex-col items-center justify-center px-8 pb-8 md:pb-48 text-center relative z-10">
+      <div className="flex-1 flex flex-col items-center justify-center px-8 pb-8 md:pb-40 text-center relative z-10">
 
         {/* Profile Image */}
         <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-2 border-white/10 mb-6">
