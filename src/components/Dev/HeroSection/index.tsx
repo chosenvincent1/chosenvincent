@@ -8,7 +8,7 @@ const HeroSection = () => {
   const { hero } = content[mode]
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
+    <div className="bg-[#0a0a0a] text-white pb-16 lg:pb-0 lg:min-h-screen">
       {/* Navbar */}
       <Navbar />
 
