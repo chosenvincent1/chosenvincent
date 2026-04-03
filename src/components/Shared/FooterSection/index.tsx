@@ -17,11 +17,6 @@ const Footer = () => {
           LET'S TALK :)
         </h2>
 
-        {/* Quote */}
-        <p className="text-center text-sm md:text-base text-gray-400 mb-16 max-w-3xl mx-auto">
-          "GOOD DOCUMENTATION IS LIKE GOOD CODE. IT SHOULD BE CLEAR, TESTED, AND ACTUALLY WORK."
-        </p>
-
         {/* Footer Info - Desktop Layout */}
         <div className="hidden md:grid md:grid-cols-3 gap-8 pt-8 border-t border-gray-800 justify-items-center">
           {/* Designed By */}

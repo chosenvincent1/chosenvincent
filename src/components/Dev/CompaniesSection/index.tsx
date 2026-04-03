@@ -1,62 +1,15 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { useState } from 'react'
+import { content } from '../../../config/content'
+import type { Company } from '../../../config/content'
+import usePortfolioMode from '../../../hooks/usePortfolioMode'
 
-interface Company {
-  id: number
-  name: string
-  description: string
-  logo: string
-  website: string
-}
 
 const CompaniesSection = () => {
+  const mode = usePortfolioMode()
+  const { companies } = content[mode]
+
   const [currentIndex, setCurrentIndex] = useState(0)
-
-  const companies: Company[] = [
-    {
-      id: 1,
-      name: 'TestMu AI',
-      description: 'AI-powered test automation platform helping developers build reliable software faster.',
-      logo: '/images/testmu_ai_logo.jpeg',
-      website: 'https://www.testmuai.com/'
-    },
-    {
-      id: 2,
-      name: 'Middleware',
-      description: 'Full-stack cloud observability platform for monitoring infrastructure, applications, and logs.',
-      logo: '/images/middleware.png',
-      website: 'https://www.middleware.io/'
-    },
-    {
-      id: 3,
-      name: 'Hit Subscribe',
-      description: 'Content marketing agency specializing in developer-focused technical content and documentation.',
-      logo: '/images/Hit-Subscribe.webp',
-      website: 'https://www.hitsubscribe.com/'
-    },
-    {
-      id: 5,
-      name: 'Tricentis',
-      description: 'Enterprise continuous testing platform for automated software testing and quality assurance.',
-      logo: '/images/Tricentis-Logo.png',
-      website: 'https://www.tricentis.com/'
-    },
-    {
-      id: 6,
-      name: 'Autify',
-      description: 'No-code test automation platform for web and mobile applications using AI-powered testing.',
-      logo: '/images/Autify-Logo.png',
-      website: 'https://autify.com/'
-    },
-    {
-      id: 7,
-      name: 'Spin.AI',
-      description: 'SaaS security platform providing backup, ransomware protection, and data loss prevention.',
-      logo: '/images/SpinAI_Logo.jpg',
-      website: 'https://www.spin.ai/'
-    }
-  ]
-
   const [isTransitioning, setIsTransitioning] = useState(false)
 
   const handlePrevious = () => {
@@ -75,7 +28,7 @@ const CompaniesSection = () => {
     }, 150)
   }
 
-  const currentCompany = companies[currentIndex]
+  const currentCompany: Company = companies[currentIndex]
 
   return (
     <section className="bg-[#1a1a1a] text-white py-16 px-8 md:px-12 lg:px-16">

@@ -1,21 +1,18 @@
 import './App.css'
-import HeroSection from './components/HeroSection';
-import AboutSection from './components/AboutSection';
-import SampleProjects from './components/SampleProjects';
-import CompaniesSection from './components/CompaniesSection';
-import ContactSection from './components/ContactSection';
-import FooterSection from './components/FooterSection';
+import { Routes, Route } from 'react-router-dom';
+import LandingPage from './Pages/LandingPage';
+import WritingPage from './Pages/WritingPage';
+import DevPage from './Pages/DevPage';
 
 function App() {
 
   return (
     <>
-      <HeroSection />
-      <AboutSection />
-      <SampleProjects />
-      <CompaniesSection />
-      <ContactSection />
-      <FooterSection />
+      <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/writing" element={<WritingPage />} />
+      <Route path="/development/*" element={<DevPage />} />
+    </Routes>
     </>
   )
 }

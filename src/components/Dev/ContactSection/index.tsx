@@ -13,7 +13,7 @@ const ContactSection = () => {
       id: 2,
       icon: <FileDown size={48} />,
       title: 'Resume',
-      link: '/images/ChosenVincent-TechnicalWriting-Resume.pdf', // Update with your actual resume path
+      link: '/images/ChosenVincent-Dev-Resume.pdf', // Update with your actual resume path
       linkText: 'View resume',
       download: false
     },
