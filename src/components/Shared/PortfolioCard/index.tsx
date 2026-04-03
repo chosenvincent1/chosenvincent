@@ -27,7 +27,7 @@ const PortfolioCard = ({ tag, title, description, ctaText, route, accent = 'whit
       <p className={`text-[10px] uppercase tracking-widest mb-3 ${isYellow ? 'text-[#d4f000]/40' : 'text-white/30'}`}>
         ✦ {tag}
       </p>
-      <h2 className="text-2xl font-extrabold mb-2 tracking-tight">{title}</h2>
+      <h2 className="text-xl font-extrabold mb-2 tracking-wide">{title}</h2>
       <p className="text-white/40 text-sm leading-relaxed mb-6 font-light">{description}</p>
       <span className={`flex items-center gap-2 text-xs font-semibold uppercase tracking-widest ${isYellow ? 'text-[#d4f000]' : 'text-white'}`}>
         {ctaText}

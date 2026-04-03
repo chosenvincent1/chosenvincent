@@ -21,7 +21,7 @@ export default function LandingPage () {
         <meta name="twitter:image" content="https://chosenvincent.vercel.app/images/Chosen_DP.jpeg" />
         <link rel="canonical" href="https://chosenvincent.vercel.app/" />
       </Helmet>
-      
+
       <div className="min-h-screen bg-[#0a0a0a] text-white flex flex-col relative overflow-hidden">
         <Navbar />
 
@@ -38,7 +38,7 @@ export default function LandingPage () {
           </div>
 
           <p className="text-xs md:text-lg uppercase tracking-widest text-white/40 mb-5">Welcome to my portfolio</p>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tight mb-4">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-wide mb-4">
             What brings you here?
           </h1>
           <p className="text-white/40 text-sm md:text-lg max-w-2xl mb-10 font-light leading-relaxed">
