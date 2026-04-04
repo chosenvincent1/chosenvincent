@@ -16,20 +16,20 @@ const HeroSection = () => {
       <div className="flex items-center justify-center mt-20 px-8">
         <div className="max-w-4xl">
           {/* Main Heading with Typing Animation */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-4">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight md:leading-[1.5] mb-6">
             <ReactTyped
               strings={[`${hero.typed}`]}
               typeSpeed={60}
-              backSpeed={30}
-              loop
-              backDelay={2000}
-              showCursor={true}
-              cursorChar="__"
+              // backSpeed={30}
+              // loop
+              // backDelay={2000}
+              showCursor={false}
+              // cursorChar="__"
             />
           </h1>
 
           {/* Description */}
-          <p className="text-gray-400 text-base md:text-lg mb-8 max-w-2xl font-light">
+          <p className="text-gray-400 text-base md:text-lg mb-8 font-light">
             {hero.description}
           </p>
 

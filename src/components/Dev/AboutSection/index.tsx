@@ -25,7 +25,7 @@ const AboutSection = () => {
                 <p 
                   key={index}
                   dangerouslySetInnerHTML={{ __html: para }}
-                  className="text-xl mb-4 md:text-2xl font-light leading-relaxed"
+                  className="text-xl mb-4 md:text-2xl font-light leading-[1.5]"
                 />
               ))}
             </div>

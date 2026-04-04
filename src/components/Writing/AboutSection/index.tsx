@@ -22,7 +22,7 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-1 md:flex-[2]">
               {about.paragraphs.map((para, index) => (
-                <p key={index} className="text-xl mb-4 md:text-2xl font-light leading-relaxed">
+                <p key={index} className="text-lg mb-4 md:text-xl font-light leading-relaxed">
                   {para}
                 </p>
               ))}

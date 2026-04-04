@@ -23,16 +23,17 @@ export interface Project {
 export const content = {
   writing: {
     hero: {
-      typed: "Hello, <br/> I'm Chosen, a Technical Writer.",
+      typed: "Technical Writer for Developer Tools and APIs",
       description:
-        "I write API and developer docs, tutorials, and guides for B2B SaaS. I've published 100+ articles for companies like Middleware, TestMu AI (formerly LambdaTest), Tricentis, InfluxData, Acceldata, Spin.AI, and Autify.",
+        "I’m a technical writer for developer tools, creating API guides, tutorials, and developer documentation for B2B SaaS. I’ve published 100+ articles for companies like Middleware, TestMu AI, and Tricentis, combining hands-on coding experience with clear, practical writing developers actually use.",
     },
     about: {
       heading: "* ABOUT",
       paragraphs: [
-        "I'm a technical writer and software developer with a B.Sc in Computer Science. I code before I write.",
-        "My background in development enables me to test every code example before publishing. If it doesn't work on my machine, it doesn't go in the article. This approach helps me create documentation that developers actually want to read.",
-        "I've worked with companies like Middleware on infrastructure monitoring guides, TestMu AI on test automation tutorials, and built API documentation for a payment and delivery system.",
+        "I’m a technical writer and software developer with a background in computer science. I work at the intersection of code and documentation, creating content for developer tools, APIs, and modern infrastructure.",
+        "I don’t just write — I test, build, and validate. Every code example I publish is tested, ensuring accuracy and real-world usability for developers.",
+        "I’ve contributed to infrastructure monitoring content at Middleware, test automation tutorials at TestMu AI, and API documentation for production systems.",
+        "My work focuses on making complex systems — from APIs to observability platforms — clear, practical, and useful for developers.",
       ],
     },
     skills: [
@@ -189,16 +190,15 @@ export const content = {
 
   development: {
     hero: {
-      typed: "Hi, <br/> I'm Chosen, a Frontend Developer",
+      typed: "Frontend Developer (React, TypeScript, Tailwind)",
       description:
-        "I build web applications with React and TypeScript. Clean code, attention to detail, and interfaces that hold up in production. I've contributed to projects for companies like Compass UOL and Invillia, building new features and refactoring codebases to be more maintainable and performant.",
+        "I build web applications with React, TypeScript, and Tailwind, delivering clean, maintainable code and polished interfaces. I’ve contributed to projects for Compass UOL and Invillia, shipping new features, refactoring codebases, and improving performance for production-ready apps.",
     },
     about: {
       heading: "* ABOUT",
       paragraphs: [
-        "I'm a frontend developer with a B.Sc in Computer Science and 3+ years of experience building web applications.",
-        "I've worked for <a href='https://compass.uol/en/home/' target='_blank' rel='noopener noreferrer'>Compass UOL</a> and <a href='https://www.invillia.ai/en/home/' target='_blank' rel='noopener noreferrer'>Invillia</a>, where I built and maintained features for <a href='https://yamaha-motor.com/' target='_blank' rel='noopener noreferrer'>Yamaha Motor USA</a> and <a href='https://lliaplatform.com/en/home/' target='_blank' rel='noopener noreferrer'>LLIA</a> — refactoring codebases, integrating CMS, writing automation tests, and shipping production features with React, TypeScript, Tailwind, and TanStack.",
-        "I also have a background in technical writing, which makes me think carefully about developer experience — both in the code I write and the interfaces I build."
+        "I'm a frontend developer with 3+ years experience building web applications. I've worked for <a href='https://compass.uol/en/home/' target='_blank' rel='noopener noreferrer'>Compass UOL</a> and <a href='https://www.invillia.ai/en/home/' target='_blank' rel='noopener noreferrer'>Invillia</a>, contributing to projects like <a href='https://yamaha-motor.com/' target='_blank' rel='noopener noreferrer'>Yamaha Motor USA</a> and <a href='https://lliaplatform.com/en/home/' target='_blank' rel='noopener noreferrer'>LLIA</a> — from shipping production features and integrating CMS to writing automation tests and refactoring codebases.",
+        "My background in technical writing gives me a unique perspective on developer experience, helping me write code and design interfaces that are clear, maintainable, and developer-friendly."
     ],
     },
     skills: [
