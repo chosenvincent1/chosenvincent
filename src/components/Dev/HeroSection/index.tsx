@@ -13,13 +13,13 @@ const HeroSection = () => {
       <Navbar />
 
       {/* Hero Content */}
-      <div className="flex items-center justify-center mt-20 px-8">
+      <div className="flex items-center justify-center mt-12 md:mt-20 px-8">
         <div className="max-w-4xl">
           {/* Main Heading with Typing Animation */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight md:leading-[1.5] mb-6">
             <ReactTyped
               strings={[`${hero.typed}`]}
-              typeSpeed={60}
+              typeSpeed={30}
               // backSpeed={30}
               // loop
               // backDelay={2000}
